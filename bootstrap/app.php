@@ -3,6 +3,8 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Foundation\PackageManifest;
+use Illuminate\Filesystem\Filesystem;
 
 $app = Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -18,11 +20,22 @@ $app = Application::configure(basePath: dirname(__DIR__))
     })->create();
 
 // On Vercel, /tmp is the only writable directory.
-// Redirect all storage paths there so views, sessions and logs work.
-// useStoragePath() must be called on the Application instance, after ->create().
-if (isset($_ENV['APP_STORAGE']) || getenv('APP_STORAGE')) {
-    $storagePath = $_ENV['APP_STORAGE'] ?? getenv('APP_STORAGE');
+// useStoragePath() must be called on the Application instance (after ->create()).
+
+if ($storagePath = ($_ENV['APP_STORAGE'] ?? getenv('APP_STORAGE'))) {
     $app->useStoragePath($storagePath);
+}
+
+// bootstrap/cache is read-only on Vercel — rebind PackageManifest and
+// path.bootstrap so all cache writes go to /tmp/bootstrap/cache instead.
+if ($bootstrapPath = ($_ENV['APP_BOOTSTRAP_PATH'] ?? getenv('APP_BOOTSTRAP_PATH'))) {
+    $app->instance('path.bootstrap', $bootstrapPath);
+
+    $app->instance(PackageManifest::class, new PackageManifest(
+        new Filesystem,
+        $app->basePath(),
+        $bootstrapPath . '/cache/packages.php'
+    ));
 }
 
 return $app;
