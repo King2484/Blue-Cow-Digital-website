@@ -3,8 +3,6 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
-use Illuminate\Foundation\PackageManifest;
-use Illuminate\Filesystem\Filesystem;
 
 $app = Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -20,22 +18,19 @@ $app = Application::configure(basePath: dirname(__DIR__))
     })->create();
 
 // On Vercel, /tmp is the only writable directory.
-// useStoragePath() must be called on the Application instance (after ->create()).
+// useStoragePath() and useBootstrapPath() must be called on the Application
+// instance AFTER ->create(). They update both the internal property AND the
+// container binding, so ALL internal path methods resolve to /tmp correctly.
 
 if ($storagePath = ($_ENV['APP_STORAGE'] ?? getenv('APP_STORAGE'))) {
     $app->useStoragePath($storagePath);
 }
 
-// bootstrap/cache is read-only on Vercel — rebind PackageManifest and
-// path.bootstrap so all cache writes go to /tmp/bootstrap/cache instead.
+// useBootstrapPath() updates $this->bootstrapPath (the property used by
+// getCachedServicesPath / normalizeCachePath) as well as path.bootstrap.
+// This fixes ProviderRepository and PackageManifest both pointing at /tmp.
 if ($bootstrapPath = ($_ENV['APP_BOOTSTRAP_PATH'] ?? getenv('APP_BOOTSTRAP_PATH'))) {
-    $app->instance('path.bootstrap', $bootstrapPath);
-
-    $app->instance(PackageManifest::class, new PackageManifest(
-        new Filesystem,
-        $app->basePath(),
-        $bootstrapPath . '/cache/packages.php'
-    ));
+    $app->useBootstrapPath($bootstrapPath);
 }
 
 return $app;
