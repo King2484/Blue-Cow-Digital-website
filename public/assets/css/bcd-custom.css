@@ -1,0 +1,229 @@
+/*==========================================================
+  BCD Custom Overrides — Hover & Colour Fixes
+  Loaded after style.css to correct contrast and visibility
+  issues on interactive elements sitewide.
+==========================================================*/
+
+/* -------------------------------------------------------
+   1. THEME BUTTONS — hover-primary variant
+   Bug: ::before data-hover text inherits primary colour
+   on a primary-colour background → invisible text.
+   Fix: force white text on the animated label.
+------------------------------------------------------- */
+.theme-btn.hover-primary:hover,
+a.theme-btn.hover-primary:hover {
+  color: white;
+}
+
+.theme-btn.hover-primary:hover::before,
+a.theme-btn.hover-primary:hover::before {
+  color: white !important;
+}
+
+/* -------------------------------------------------------
+   2. THEME BUTTONS — hover-secondary variant
+   Secondary colour (#28F67A) is bright green; ensure the
+   animated label uses a dark readable colour.
+------------------------------------------------------- */
+.theme-btn.hover-secondary:hover,
+a.theme-btn.hover-secondary:hover {
+  color: var(--ridda-heading-color);
+}
+
+.theme-btn.hover-secondary:hover::before,
+a.theme-btn.hover-secondary:hover::before {
+  color: var(--ridda-heading-color) !important;
+}
+
+/* -------------------------------------------------------
+   3. THEME BUTTONS — default hover (white background)
+   When a button sits on a white/light background the
+   hover state (bg: white) vanishes. Add a border + shadow
+   so the button outline is always visible.
+------------------------------------------------------- */
+.theme-btn:hover,
+a.theme-btn:hover {
+  background: white;
+  color: var(--ridda-primary-color);
+  border: 1px solid var(--ridda-primary-color);
+  box-shadow: 0 0 0 1px var(--ridda-primary-color);
+}
+
+/* style-two already handles its own hover properly */
+.theme-btn.style-two:hover,
+a.theme-btn.style-two:hover {
+  box-shadow: none;
+  border-color: var(--ridda-primary-color);
+}
+
+/* style-three hover */
+.theme-btn.style-three:hover,
+a.theme-btn.style-three:hover {
+  box-shadow: none;
+}
+
+/* -------------------------------------------------------
+   4. THEME BUTTONS — dark/text-white context
+   Buttons inside dark sections need their default hover
+   label to remain readable.
+------------------------------------------------------- */
+.text-white .theme-btn:hover::before,
+.bgc-black .theme-btn:hover::before {
+  color: var(--ridda-primary-color) !important;
+}
+
+/* hover-primary in dark context stays white */
+.text-white .theme-btn.hover-primary:hover::before,
+.bgc-black .theme-btn.hover-primary:hover::before {
+  color: white !important;
+}
+
+/* -------------------------------------------------------
+   5. SOCIAL LINKS — style-two (footer & inner pages)
+   Bug: icon colour on hover was heading-colour (#111)
+   on a primary-colour (dark blue) background → invisible.
+   Fix: white icons on primary-bg hover.
+------------------------------------------------------- */
+.social-style-two a:hover,
+.social-style-two a:hover i {
+  color: white !important;
+}
+
+/* -------------------------------------------------------
+   6. PRICING CARDS — list text on dark hover/active state
+   Bug: list-style-one items keep heading-colour text
+   when card background switches to dark on hover/active.
+   Fix: white text and white checkmarks on dark cards.
+------------------------------------------------------- */
+.pricing-item.style-two:hover .list-style-one li,
+.pricing-item.style-two.active .list-style-one li {
+  color: white;
+}
+
+.pricing-item.style-two:hover .list-style-one li::before,
+.pricing-item.style-two.active .list-style-one li::before {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Unavailable (crossed-out) items on dark card */
+.pricing-item.style-two:hover .list-style-one li.unavailable,
+.pricing-item.style-two.active .list-style-one li.unavailable {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.pricing-item.style-two:hover .list-style-one li.unavailable::before,
+.pricing-item.style-two.active .list-style-one li.unavailable::before {
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* -------------------------------------------------------
+   7. PRICING CARDS — active (featured) plan always dark
+   The middle (Growth) card has class .active and should
+   permanently display the dark/highlighted style.
+------------------------------------------------------- */
+.pricing-item.style-two.active {
+  background: var(--ridda-heading-color);
+}
+
+.pricing-item.style-two.active .text,
+.pricing-item.style-two.active .title,
+.pricing-item.style-two.active .note-text,
+.pricing-item.style-two.active .price .after-text {
+  color: white;
+}
+
+.pricing-item.style-two.active .price {
+  color: var(--ridda-primary-color);
+}
+
+.pricing-item.style-two.active .text {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.pricing-item.style-two.active .theme-btn {
+  color: var(--ridda-heading-color);
+  background: var(--ridda-primary-color);
+  border-color: var(--ridda-primary-color);
+}
+
+/* -------------------------------------------------------
+   8. NAV LINKS — hover underline colour on dark header
+------------------------------------------------------- */
+.main-header.fixed-header .main-menu .navbar-collapse li a:hover,
+.main-header .main-menu .navbar-collapse li a:hover {
+  color: var(--ridda-primary-color);
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------
+   9. FOOTER LINKS — hover states
+------------------------------------------------------- */
+.main-footer .footer-bottom-nav li a:hover,
+.main-footer .copyright-text a:hover {
+  color: var(--ridda-secondary-color);
+}
+
+/* -------------------------------------------------------
+  10. ACCORDION / FAQ — hover on question buttons
+------------------------------------------------------- */
+.accordion-button:not(.collapsed) {
+  color: var(--ridda-primary-color);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-button:hover {
+  color: var(--ridda-primary-color);
+}
+
+/* -------------------------------------------------------
+  11. READ MORE / INLINE LINKS — hover colour
+------------------------------------------------------- */
+.read-more:hover,
+a.read-more:hover {
+  color: var(--ridda-primary-color);
+}
+
+/* -------------------------------------------------------
+  12. PROJECT / BLOG CARD LINKS — hover colour
+------------------------------------------------------- */
+.project-grid-item .content h4 a:hover,
+.project-list-item .content h4 a:hover,
+.blog-item .content h5 a:hover,
+.blog-standard-item .content h3 a:hover,
+.blog-timeline-item .content h4 a:hover {
+  color: var(--ridda-primary-color);
+}
+
+/* -------------------------------------------------------
+  13. TEAM CARD — hover name link colour
+------------------------------------------------------- */
+.team-item .content h5 a:hover {
+  color: var(--ridda-primary-color);
+}
+
+/* -------------------------------------------------------
+  14. SERVICE CARDS — ensure text visible on dark hover
+------------------------------------------------------- */
+.service-item.style-two:hover .content h6 a {
+  color: white !important;
+}
+
+/* -------------------------------------------------------
+  15. NEWSLETTER SUBSCRIBE BUTTON (footer)
+------------------------------------------------------- */
+.newsletter-form button.theme-btn:hover::before,
+.newsletter-form button.hover-primary:hover::before {
+  color: white !important;
+}
+
+/* -------------------------------------------------------
+  16. SLICK PREV / NEXT ARROWS — hover visibility
+------------------------------------------------------- */
+.slick-arrow:hover {
+  background: var(--ridda-primary-color);
+  color: white;
+  border-color: var(--ridda-primary-color);
+}
