@@ -37,10 +37,24 @@ foreach (glob($repoCache . '/*.php') as $file) {
     }
 }
 
-// ── 4. Serve static files from public/ directly ───────────────────────────
+// ── 4. Temporary debug endpoint — remove after confirming assets load ──────
+$uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+if ($uri === '/_fs_check') {
+    header('Content-Type: application/json');
+    echo json_encode([
+        'api_dir'      => __DIR__,
+        'public_dir'   => is_dir(__DIR__ . '/../public')              ? 'OK' : 'MISSING',
+        'assets_dir'   => is_dir(__DIR__ . '/../public/assets')       ? 'OK' : 'MISSING',
+        'css_dir'      => is_dir(__DIR__ . '/../public/assets/css')   ? 'OK' : 'MISSING',
+        'style_css'    => is_file(__DIR__ . '/../public/assets/css/style.css') ? 'OK' : 'MISSING',
+        'bcd_custom'   => is_file(__DIR__ . '/../public/assets/css/bcd-custom.css') ? 'OK' : 'MISSING',
+    ]);
+    exit;
+}
+
+// ── 5. Serve static files from public/ directly ───────────────────────────
 // Vercel's static file routing can be unreliable with PHP runtimes.
 // We serve all static assets through PHP to guarantee delivery.
-$uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
 $staticFile = __DIR__ . '/../public' . $uri;
 
 if ($uri !== '/' && is_file($staticFile)) {
