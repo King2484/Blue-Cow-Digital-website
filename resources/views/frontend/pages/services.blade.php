@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title', 'Our Services')
-@section('meta_description', "Explore Blue Cow Digital's full range of services: bespoke web design, SEO, social media management, branding and eCommerce development.")
-@section('meta_keywords', 'web design services UK, SEO agency Southport, digital marketing services, branding agency, eCommerce development')
+@section('meta_description', "Blue Cow Digital's complete web design and digital marketing package — everything you need to grow your business online.")
+@section('meta_keywords', 'web design services UK, SEO agency Southport, digital marketing services, website design and SEO')
 @section('content')
     <!-- header area -->
     @include('frontend.includes.headers.headerOne')
@@ -11,11 +11,11 @@
         <section class="page-banner-area bgc-black text-white rel z-1 overflow-hidden">
             <div class="container bordered-x py-200 rpt-100 rpb-120">
                 <div class="banner-inner px-xl-4 pt-90">
-                    <h1 class="page-title mb-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">Our Services</h1>
+                    <h1 class="page-title mb-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">Our Package</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500" data-aos-offset="50">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="breadcrumb-item active">Our Services</li>
+                            <li class="breadcrumb-item active">Our Package</li>
                         </ol>
                     </nav>
                 </div>
@@ -53,16 +53,16 @@
                     </div>
                     <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-25">
-                            <span class="subtitle mt-10 mb-15">What We Provide</span>
-                            <h2>Digital Services Built Around Your Business Goals</h2>
+                            <span class="subtitle mt-10 mb-15">What You Get</span>
+                            <h2>One Complete Package to Grow Your Business Online</h2>
                         </div>
-                        <p>At Blue Cow Digital, we offer a full suite of digital services designed to help your business grow online. Whether you need a brand new website, a stronger search presence, or a complete digital strategy, our team in Southport has the expertise to deliver results.</p>
+                        <p>You don't need to piece together multiple services or juggle different agencies. Our single, integrated package includes everything you need to build a professional website, improve your search visibility, and generate more customer enquiries through strategic marketing.</p>
                         <ul class="list-style-one mt-25">
-                            <li>Bespoke Web Design &amp; Development</li>
-                            <li>SEO &amp; Content Marketing</li>
-                            <li>Social Media Management</li>
-                            <li>Branding &amp; Visual Identity</li>
-                            <li>eCommerce Solutions</li>
+                            <li>Complete Website Design &amp; Development</li>
+                            <li>Technical, On-Page &amp; Local SEO</li>
+                            <li>Social Media Content (2x per week)</li>
+                            <li>Blog Posts &amp; Content Marketing</li>
+                            <li>Monthly Marketing Reporting &amp; Strategy</li>
                         </ul>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
                 <div class="row justify-content-center pb-50">
                     <div class="col-xl-7 col-lg-9 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-15">
-                            <span class="subtitle mt-10 mb-15">Our Process</span>
-                            <h2>How We Deliver Results for Your Business</h2>
+                            <span class="subtitle mt-10 mb-15">The Journey</span>
+                            <h2>How We Build Your Success</h2>
                         </div>
                     </div>
                 </div>
@@ -87,35 +87,35 @@
                         <div class="work-process-item-two">
                             <span class="number">01</span>
                             <h6>Discovery</h6>
-                            <p>We learn about your business, goals, target audience and competitors in depth.</p>
+                            <p>We learn about your business, goals, audience and what drives your customers to buy.</p>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
                         <div class="work-process-item-two">
                             <span class="number">02</span>
-                            <h6>Strategy</h6>
-                            <p>We create a tailored digital strategy aligned with your specific goals and KPIs.</p>
+                            <h6>Planning</h6>
+                            <p>We create a clear digital strategy including site structure, content plan and marketing roadmap.</p>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100">
                         <div class="work-process-item-two">
                             <span class="number">03</span>
-                            <h6>Design &amp; Build</h6>
-                            <p>Our team designs and develops your project with quality and performance in mind.</p>
+                            <h6>Design</h6>
+                            <p>We design a beautiful, conversion-focused website that represents your brand perfectly.</p>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="150">
                         <div class="work-process-item-two">
                             <span class="number">04</span>
-                            <h6>Launch</h6>
-                            <p>We test everything thoroughly before going live to ensure a flawless launch.</p>
+                            <h6>Development</h6>
+                            <p>We build your website with SEO built in, fast loading speeds and full mobile optimisation.</p>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="200">
                         <div class="work-process-item-two">
                             <span class="number">05</span>
-                            <h6>Grow &amp; Optimise</h6>
-                            <p>We monitor performance and continually optimise to improve results over time.</p>
+                            <h6>Launch &amp; Market</h6>
+                            <p>We launch your site and immediately begin SEO optimisation and marketing campaigns.</p>
                         </div>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                 <div class="row justify-content-center pb-50">
                     <div class="col-xl-7 col-lg-9 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-15">
-                            <span class="subtitle mt-10 mb-15">Our Services</span>
-                            <h2>Everything You Need to Succeed Online</h2>
+                            <span class="subtitle mt-10 mb-15">What's Included</span>
+                            <h2>Everything You Need in One Package</h2>
                         </div>
                     </div>
                 </div>
@@ -141,52 +141,41 @@
                         <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Web Design">
                     </div>
                     <div class="content">
-                        <h4><a href="{{ route('serviceDetails') }}">Web Design &amp; Development</a></h4>
-                        <p>Bespoke, mobile-responsive websites built to convert visitors into customers. Every site we create is custom designed to reflect your brand and optimised for performance from day one.</p>
+                        <h4><a href="{{ route('serviceDetails') }}">Complete Website Overhaul</a></h4>
+                        <p>A fully custom, mobile-responsive website designed and built specifically for your business. Fast loading, easy to navigate, and built with user experience and conversions in mind.</p>
                         <a href="{{ route('serviceDetails') }}" class="read-more">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">02</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Branding">
+                        <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=500" alt="SEO">
                     </div>
                     <div class="content">
-                        <h4><a href="{{ route('serviceDetails') }}">Branding &amp; Visual Identity</a></h4>
-                        <p>Stand out with a distinctive brand identity that resonates with your target audience. From logo design to full brand guidelines, we create identities that are built to last.</p>
+                        <h4><a href="{{ route('serviceDetails') }}">Complete SEO Strategy</a></h4>
+                        <p>Technical SEO, on-page optimisation, local SEO and ongoing optimisation to get you found on Google by customers searching for what you offer.</p>
                         <a href="{{ route('serviceDetails') }}" class="read-more">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">03</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/669614/pexels-photo-669614.jpeg?auto=compress&cs=tinysrgb&w=500" alt="SEO">
+                        <img src="https://images.pexels.com/photos/669614/pexels-photo-669614.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Content">
                     </div>
                     <div class="content">
-                        <h4><a href="{{ route('serviceDetails') }}">SEO &amp; Digital Marketing</a></h4>
-                        <p>Get found on Google by the customers who matter most. Our data-driven SEO strategies combine technical optimisation, content marketing and link building to grow your organic visibility.</p>
+                        <h4><a href="{{ route('serviceDetails') }}">Content &amp; Social Media Management</a></h4>
+                        <p>Professional blog posts, engaging social media content twice per week across your channels, and a content strategy that keeps your audience engaged and coming back.</p>
                         <a href="{{ route('serviceDetails') }}" class="read-more">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">04</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Social Media">
+                        <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Reporting">
                     </div>
                     <div class="content">
-                        <h4><a href="{{ route('serviceDetails') }}">Social Media Management</a></h4>
-                        <p>Build your brand and engage your audience across Facebook, Instagram, LinkedIn and more. We create and manage content strategies that grow followers and drive real business enquiries.</p>
-                        <a href="{{ route('serviceDetails') }}" class="read-more">Learn More <i class="far fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="number">05</div>
-                    <div class="image">
-                        <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=500" alt="eCommerce">
-                    </div>
-                    <div class="content">
-                        <h4><a href="{{ route('serviceDetails') }}">eCommerce Development</a></h4>
-                        <p>Launch or scale your online store with a fully bespoke eCommerce solution. From product management to secure checkout and SEO-optimised category pages, we build stores that sell.</p>
+                        <h4><a href="{{ route('serviceDetails') }}">Monthly Reporting &amp; Strategy</a></h4>
+                        <p>Clear monthly reports showing what's working, what's driving customers to your site, and what we're doing next. Strategy reviews keep your marketing aligned with your business goals.</p>
                         <a href="{{ route('serviceDetails') }}" class="read-more">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -202,7 +191,7 @@
                     <div class="col-xl-7 col-lg-9 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-15">
                             <span class="subtitle mt-10 mb-15">FAQs</span>
-                            <h2>Common Questions About Our Services</h2>
+                            <h2>Questions About Our Package?</h2>
                         </div>
                     </div>
                 </div>
@@ -212,51 +201,51 @@
                             <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                        How long does it take to build a website?
+                                        How long does the website build take?
                                     </button>
                                 </h2>
                                 <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#serviceFaq">
-                                    <div class="accordion-body">Most bespoke websites take between 4 and 8 weeks from initial briefing to launch, depending on complexity. We will give you a clear timeline at the start of the project.</div>
+                                    <div class="accordion-body">Most projects take 4-8 weeks from briefing to launch. We'll give you a clear timeline upfront and keep you informed throughout the process.</div>
                                 </div>
                             </div>
                             <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                        Do you offer ongoing support after launch?
+                                        What's included in the monthly package?
                                     </button>
                                 </h2>
                                 <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#serviceFaq">
-                                    <div class="accordion-body">Yes. We offer ongoing maintenance, hosting support, and digital marketing retainers so your website and online presence continue to perform and grow after launch.</div>
+                                    <div class="accordion-body">Website design and development, full SEO (technical, on-page and local), twice-weekly social media content, blog posts, monthly reporting, and ongoing optimisation. Everything you need in one package.</div>
                                 </div>
                             </div>
                             <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                        How does SEO help my business?
+                                        Will I be able to update my own website?
                                     </button>
                                 </h2>
                                 <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#serviceFaq">
-                                    <div class="accordion-body">SEO improves your visibility in Google search results, putting your business in front of people who are actively searching for what you offer. This drives more qualified traffic and more enquiries over time.</div>
+                                    <div class="accordion-body">Yes. We build your site with an easy-to-use content management system (CMS) so you can update content, images, and pages yourself without any technical knowledge. We provide training too.</div>
                                 </div>
                             </div>
                             <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                        Can you work with my existing website?
+                                        How much does it cost?
                                     </button>
                                 </h2>
                                 <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#serviceFaq">
-                                    <div class="accordion-body">Absolutely. We regularly work with existing websites to improve their design, performance, and SEO. We will audit your current site and recommend the most cost-effective improvements.</div>
+                                    <div class="accordion-body">Our complete package is £979 per month, with 50% off the first 3 months as a special offer. That covers everything — website, SEO, content, social media and reporting. No hidden fees.</div>
                                 </div>
                             </div>
                             <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                                        How do I get started with Blue Cow Digital?
+                                        How do I get started?
                                     </button>
                                 </h2>
                                 <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#serviceFaq">
-                                    <div class="accordion-body">Simply get in touch via our contact page or call us on +44 (0)1704 331786. We will arrange a free, no-obligation consultation to discuss your goals and how we can help.</div>
+                                    <div class="accordion-body">Simply get in touch via our contact page or call +44 (0)1704 331786. We'll discuss your goals, answer your questions, and you can claim the special offer.</div>
                                 </div>
                             </div>
                         </div>
@@ -272,8 +261,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-9 col-md-11 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mx-xl-3 mb-30">
-                            <h2>Ready to Grow Your Business Online?</h2>
-                            <p>Talk to the Blue Cow Digital team today for a free, no-obligation consultation.</p>
+                            <h2>Ready to Claim Your Offer?</h2>
+                            <p>Get the complete website and marketing package at £979/month (50% off the first 3 months).</p>
                         </div>
                         <a href="{{ route('contact') }}" class="theme-btn hover-primary" data-hover="Get Started">
                             <span>Get Started</span>

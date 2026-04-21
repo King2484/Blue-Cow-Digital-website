@@ -20,7 +20,7 @@
                     </nav>
                 </div>
             </div>
-            
+
             <div class="page-banner-shapes">
                 <div class="shape">
                     <img src="{{ asset('/assets/images/shapes/hero-shape.png') }}" alt="Shape">
@@ -40,11 +40,11 @@
                    </span>
                 </span>
             </div>
-            
+
         </section>
         <!-- Page Banner End -->
-        
-        
+
+
         <!-- About Area start -->
         <section class="about-area rel z-1">
             <div class="container bordered-x pt-130 rpt-100 pb-80">
@@ -53,21 +53,21 @@
                         <div class="about-circles rmb-55">
                             <div class="circle" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">Web Design</div>
                             <div class="circle mx-auto bgc-black text-white" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">SEO</div>
-                            <div class="circle ms-auto bgc-primary" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">Branding</div>
+                            <div class="circle ms-auto bgc-primary" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">Marketing</div>
                         </div>
                     </div>
                     <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="about-content-four">
                             <div class="section-title mb-40">
-                                <span class="subtitle mt-10 mb-15">About Agency</span>
-                                <h2>Southport's Digital Agency — Helping Brands Grow Online with <span>Blue Cow Digital</span></h2>
+                                <span class="subtitle mt-10 mb-15">Our Story</span>
+                                <h2>We Help Local Businesses Win Online — <span>Blue Cow Digital</span></h2>
                             </div>
-                            <p>Founded in 2018, Blue Cow Digital is a full-service digital marketing agency based in Southport, Merseyside. We specialise in bespoke web design, search engine optimisation (SEO), social media marketing, and branding — helping businesses of all sizes build a powerful online presence.</p>
+                            <p>Founded in 2018, Blue Cow Digital is a web design and digital marketing agency based in Southport, Merseyside. We work with UK businesses of all sizes to build beautiful websites, improve their search visibility, and grow their customer base through strategic marketing.</p>
                             <ul class="list-style-one mt-30">
-                                <li>Bespoke Web Design & Development</li>
-                                <li>SEO & Digital Marketing</li>
-                                <li>Social Media Campaigns</li>
-                                <li>Branding & Visual Identity</li>
+                                <li>Custom Website Design & Development</li>
+                                <li>SEO & Local Search Optimisation</li>
+                                <li>Social Media Content & Marketing</li>
+                                <li>Strategic Marketing & Reporting</li>
                             </ul>
                         </div>
                     </div>
@@ -81,21 +81,21 @@
                             <div class="counter-item counter-text-wrap">
                                 <span class="count-text k-plus" data-speed="3000" data-stop="25">0</span>
                                 <span class="counter-title">Projects Delivered</span>
-                                <div class="text">Websites, brands & campaigns launched for clients across the UK.</div>
+                                <div class="text">High-performing websites and digital strategies launched for UK businesses.</div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="counter-item counter-text-wrap">
                                 <span class="count-text k-plus" data-speed="3000" data-stop="10">0</span>
                                 <span class="counter-title">Happy Clients</span>
-                                <div class="text">Businesses that trust Blue Cow Digital to grow their online presence.</div>
+                                <div class="text">Businesses achieving real results through our complete website and marketing package.</div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="counter-item counter-text-wrap">
                                 <span class="count-text plus" data-speed="3000" data-stop="7">0</span>
                                 <span class="counter-title">Years Of Experience</span>
-                                <div class="text">Delivering award-winning digital solutions since 2018.</div>
+                                <div class="text">Helping UK businesses build powerful online presence since 2018.</div>
                             </div>
                         </div>
                     </div>
@@ -103,16 +103,16 @@
             </div>
         </section>
         <!-- About Area end -->
-        
-        
+
+
         <!-- Why Choose Us Area start -->
         <section class="why-choose-us-area rel z-1">
             <div class="container bordered-x py-130 rpy-100">
                 <div class="row mx-xl-1 justify-content-between">
                     <div class="col-lg-6 rmb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-45">
-                            <span class="subtitle mt-10 mb-15">Why Choose Us?</span>
-                            <h2>Digital Solutions Tailored to Your Business Goals</h2>
+                            <span class="subtitle mt-10 mb-15">Why Work With Us</span>
+                            <h2>You Get Everything You Need to Succeed Online</h2>
                         </div>
                         <img class="br-5" src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Blue Cow Digital team collaborating on digital strategy">
                     </div>
@@ -120,22 +120,22 @@
                         <div class="service-item style-two">
                             <div class="icon"><i class="fas fa-tools"></i></div>
                             <div class="content">
-                                <h6><a href="{{ route('serviceDetails') }}">Experienced & Passionate Team</a></h6>
-                                <p>Our team brings years of expertise in web design, SEO, and digital marketing — staying ahead of every trend so you don't have to.</p>
+                                <h6><a href="{{ route('serviceDetails') }}">Experienced Team</a></h6>
+                                <p>Our experienced team brings years of expertise in web design, SEO and digital marketing. We stay on top of industry trends so your business stays ahead of the competition.</p>
                             </div>
                         </div>
                         <div class="service-item style-two">
                             <div class="icon"><i class="fas fa-anchor"></i></div>
                             <div class="content">
-                                <h6><a href="{{ route('serviceDetails') }}">Tailored to Your Business</a></h6>
-                                <p>We don't do one-size-fits-all. Every strategy, design, and campaign is built specifically around your goals, audience, and budget.</p>
+                                <h6><a href="{{ route('serviceDetails') }}">Complete Solution</a></h6>
+                                <p>One package covers your website, SEO, content creation, and marketing strategy. You don't need to juggle multiple agencies or providers — we handle everything.</p>
                             </div>
                         </div>
                         <div class="service-item style-two">
                             <div class="icon"><i class="fas fa-comments"></i></div>
                             <div class="content">
-                                <h6><a href="{{ route('serviceDetails') }}">Honest & Open Communication</a></h6>
-                                <p>We keep you informed at every stage. No jargon, no hidden surprises — just clear, transparent progress and real results.</p>
+                                <h6><a href="{{ route('serviceDetails') }}">Transparent Partnership</a></h6>
+                                <p>No jargon, no surprises. We keep you informed at every stage and show you exactly what's working through regular reporting. Your success is our success.</p>
                             </div>
                         </div>
                     </div>
@@ -143,20 +143,20 @@
             </div>
         </section>
         <!-- Why Choose Us Area end -->
-        
-        
+
+
         <!-- Team Area start -->
         <section class="team-area-two bgc-lighter">
             <div class="container bordered-x pt-130 rpt-100 pb-100 rpb-70 px-sm-0">
                <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="section-title text-center mb-50" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
-                            <span class="subtitle mt-10 mb-15">Meet Our Team</span>
-                            <h2>The People Behind Blue Cow Digital</h2>
+                            <span class="subtitle mt-10 mb-15">Meet Your Team</span>
+                            <h2>The People Who'll Work on Your Project</h2>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="row justify-content-center">
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="team-item style-two">
@@ -227,8 +227,8 @@
             </div>
         </section>
         <!-- Team Area end -->
-        
-        
+
+
         <!-- Testimonials Area Start -->
         <section class="testimonials-two-area rel z-1">
             <div class="container px-0 bordered-x pt-130 rpt-100 pb-170 rpb-140">
@@ -237,10 +237,10 @@
                         <div class="col-lg-5">
                             <div class="testimonials-content rmb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                                 <div class="section-title mb-30">
-                                    <span class="subtitle mt-10 mb-15">Our Testimonials</span>
-                                    <h2>What Our Clients Say About Blue Cow Digital</h2>
+                                    <span class="subtitle mt-10 mb-15">Client Feedback</span>
+                                    <h2>What Our Clients Achieve With Us</h2>
                                 </div>
-                                <p>We're proud of the results we deliver and even prouder of the relationships we build along the way.</p>
+                                <p>Our clients see real results — better online visibility, more customer enquiries, and stronger brand presence. That's what matters to us.</p>
                                 <div class="testimonial-dots mt-45"></div>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                                         <div class="quote"><i class="flaticon-quotation-mark"></i></div>
                                         <div class="logo"><span style="color:#f5a623;font-size:18px;letter-spacing:2px;">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
                                     </div>
-                                    <div class="text">"Blue Cow Digital delivered a first class service. They didn't impose their ideas but made valid suggestions, resulting in a website that has really helped improve our brand awareness."</div>
+                                    <div class="text">"Our new website has really improved how customers see our business. Blue Cow Digital listened to what we needed and delivered exactly that."</div>
                                     <div class="quote-title">
                                         <div class="author"><img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client"></div>
                                         <h6>James Whitfield</h6>
@@ -263,7 +263,7 @@
                                         <div class="quote"><i class="flaticon-quotation-mark"></i></div>
                                         <div class="logo"><span style="color:#f5a623;font-size:18px;letter-spacing:2px;">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
                                     </div>
-                                    <div class="text">"The team at Blue Cow Digital delivered our project on time and exactly what I wanted. Our website now has much needed structure and credibility."</div>
+                                    <div class="text">"We've been getting much better enquiries since the site launched. The team was professional and delivered on time. Really happy with the results."</div>
                                     <div class="quote-title">
                                         <div class="author"><img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client"></div>
                                         <h6>Claire Houghton</h6>
@@ -275,7 +275,7 @@
                                         <div class="quote"><i class="flaticon-quotation-mark"></i></div>
                                         <div class="logo"><span style="color:#f5a623;font-size:18px;letter-spacing:2px;">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
                                     </div>
-                                    <div class="text">"Working with Blue Cow Digital was a great experience. They understood our vision from the start and delivered a stunning, high-performing website well within budget."</div>
+                                    <div class="text">"From start to finish, Blue Cow Digital made the process easy. They explained everything, kept us in the loop, and we got a website we're genuinely proud of."</div>
                                     <div class="quote-title">
                                         <div class="author"><img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client"></div>
                                         <h6>David Roscoe</h6>
@@ -287,7 +287,7 @@
                                         <div class="quote"><i class="flaticon-quotation-mark"></i></div>
                                         <div class="logo"><span style="color:#f5a623;font-size:18px;letter-spacing:2px;">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
                                     </div>
-                                    <div class="text">"The SEO work Blue Cow Digital did for our local business completely transformed our search rankings. We're now getting more leads online than ever before."</div>
+                                    <div class="text">"Our search rankings have improved significantly. We're getting more online enquiries than ever before. Best investment we've made in our marketing."</div>
                                     <div class="quote-title">
                                         <div class="author"><img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client"></div>
                                         <h6>Rachel Simmons</h6>
@@ -298,7 +298,7 @@
                         </div>
                     </div>
                     <div class="text-center mt-45 mb-40" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
-                        <h6>Sectors We Work With</h6>
+                        <h6>Industries We Work With</h6>
                     </div>
                     <div class="client-logo-active" style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px 40px;align-items:center;">
                         <div class="client-logo-item" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50" style="padding:12px 24px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;">
@@ -324,16 +324,16 @@
             </div>
         </section>
         <!-- Testimonials Area End -->
-         
-         
+
+
         <!-- Blog Area start -->
         <section class="blog-area rel z-1">
             <div class="container bordered-x pb-100 rpb-70 px-sm-0">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="section-title text-center mb-50" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
-                            <span class="subtitle mt-10 mb-15">Blog & News</span>
-                            <h2>Explore Latest Insights</h2>
+                            <span class="subtitle mt-10 mb-15">Blog & Resources</span>
+                            <h2>Learn From Our Experience</h2>
                         </div>
                     </div>
                 </div>
@@ -345,9 +345,9 @@
                             </div>
                             <div class="content">
                                 <ul class="blog-meta">
-                                    <li><a href="#">Video Marketing</a></li>
+                                    <li><a href="#">Social Media Strategy</a></li>
                                 </ul>
-                                <h5><a href="{{ route('blogDetails') }}">How to Craft a Winning Social Media Strategy from Scratch</a></h5>
+                                <h5><a href="{{ route('blogDetails') }}">How to Create a Social Media Strategy That Generates Real Leads</a></h5>
                                 <a href="{{ route('blogDetails') }}" class="theme-btn style-two" data-hover="Read More">
                                     <span>Read More</span>
                                 </a>
@@ -361,9 +361,9 @@
                             </div>
                             <div class="content">
                                 <ul class="blog-meta">
-                                    <li><a href="#">Research & Marketing</a></li>
+                                    <li><a href="#">Web Design</a></li>
                                 </ul>
-                                <h5><a href="{{ route('blogDetails') }}">Unlocking the Power of Paid Ads: A Social Media Marketing Guide</a></h5>
+                                <h5><a href="{{ route('blogDetails') }}">Why Your Website is Your Most Important Sales Tool</a></h5>
                                 <a href="{{ route('blogDetails') }}" class="theme-btn style-two" data-hover="Read More">
                                     <span>Read More</span>
                                 </a>
@@ -377,9 +377,9 @@
                             </div>
                             <div class="content">
                                 <ul class="blog-meta">
-                                    <li><a href="#">SEO Marketing</a></li>
+                                    <li><a href="#">SEO & Local Search</a></li>
                                 </ul>
-                                <h5><a href="{{ route('blogDetails') }}">Boosting Local Visibility in a Competitive Market with SEO</a></h5>
+                                <h5><a href="{{ route('blogDetails') }}">Local SEO: Get Found by Customers in Your Area</a></h5>
                                 <a href="{{ route('blogDetails') }}" class="theme-btn style-two" data-hover="Read More">
                                     <span>Read More</span>
                                 </a>

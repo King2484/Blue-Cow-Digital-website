@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title', 'Pricing Plans')
-@section('meta_description', "Explore Blue Cow Digital's transparent pricing plans for web design, SEO, and digital marketing services. Choose the package that fits your business.")
-@section('meta_keywords', 'web design pricing Southport, SEO packages UK, digital marketing pricing, Blue Cow Digital plans')
+@section('meta_description', "Blue Cow Digital's transparent pricing: £979/month for complete website design, SEO and marketing. 50% off first 3 months.")
+@section('meta_keywords', 'web design pricing Southport, SEO packages UK, digital marketing pricing, website and marketing package')
 @section('content')
     <!-- header area -->
     @include('frontend.includes.headers.headerOne')
@@ -48,80 +48,58 @@
                 <div class="row justify-content-center pb-35">
                     <div class="col-xl-7 col-lg-9 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-15">
-                            <span class="subtitle mt-10 mb-15">Transparent Pricing</span>
-                            <h2>Simple Plans. Real Results.</h2>
+                            <span class="subtitle mt-10 mb-15">One Clear Price</span>
+                            <h2>Everything You Need. One Package.</h2>
                         </div>
-                        <p>Every business is different — that's why we offer flexible packages to suit your goals and budget. Not sure which plan is right for you? <a href="{{ route('contact') }}">Get in touch</a> and we'll recommend the best fit.</p>
+                        <p>We believe in simple, transparent pricing. No tier confusion. No upsells. Just one complete package with everything you need to grow your business online.</p>
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-center mt-30">
-                    <div class="col-xl-4 col-md-6 col-sm-10" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="pricing-item style-two">
-                           <div class="pricing-header">
-                                <h5 class="title">Starter Plan</h5>
-                                <span class="price">POA</span>
-                                <p>Perfect for small businesses and start-ups looking to establish a professional online presence.</p>
-                           </div>
-                            <ul class="list-style-one">
-                                <li>Bespoke Website Design (up to 5 pages)</li>
-                                <li>Mobile-Responsive Build</li>
-                                <li>Basic On-Page SEO Setup</li>
-                                <li>Google Analytics Integration</li>
-                                <li class="unavailable">Social Media Strategy</li>
-                                <li class="unavailable">Monthly SEO Reporting</li>
-                                <li class="unavailable">Dedicated Account Manager</li>
-                            </ul>
-                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100" data-hover="Get a Quote">
-                                <span>Get a Quote</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-sm-10" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">
+                    <div class="col-xl-6 col-md-8 col-sm-10" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="pricing-item style-two active">
                            <div class="pricing-header">
-                                <h5 class="title">Growth Plan</h5>
-                                <span class="price">POA</span>
-                                <p>Ideal for growing businesses that want to build visibility and generate more leads online.</p>
+                                <h5 class="title">Complete Package</h5>
+                                <div style="margin: 20px 0;">
+                                    <span class="price" style="font-size: 48px; font-weight: 700;">£979</span>
+                                    <span style="display: block; font-size: 16px; margin-top: 5px; color: #666;">per month</span>
+                                </div>
+                                <div style="background: #f0f0f0; padding: 15px; border-radius: 6px; margin: 20px 0; font-weight: 600; color: #2ecc71;">
+                                    50% OFF FIRST 3 MONTHS
+                                </div>
+                                <p>Everything you need to succeed online — website, SEO, content, social media, reporting and support.</p>
                            </div>
                             <ul class="list-style-one">
-                                <li>Bespoke Website Design (up to 10 pages)</li>
-                                <li>Mobile-Responsive Build</li>
-                                <li>Full On-Page &amp; Technical SEO</li>
+                                <li>Custom Website Design &amp; Development</li>
+                                <li>Mobile-Responsive &amp; Fast-Loading</li>
+                                <li>Technical SEO Optimisation</li>
+                                <li>On-Page &amp; Local SEO</li>
+                                <li>Social Media Content (2x per week)</li>
+                                <li>Professional Blog Posts</li>
                                 <li>Google Analytics &amp; Search Console</li>
-                                <li>Social Media Strategy &amp; Setup</li>
-                                <li>Monthly SEO Reporting</li>
-                                <li class="unavailable">Dedicated Account Manager</li>
-                            </ul>
-                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100" data-hover="Get a Quote">
-                                <span>Get a Quote</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-sm-10" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="pricing-item style-two">
-                           <div class="pricing-header">
-                                <h5 class="title">Premium Plan</h5>
-                                <span class="price">POA</span>
-                                <p>A fully managed digital solution for established businesses ready to dominate their market.</p>
-                           </div>
-                            <ul class="list-style-one">
-                                <li>Fully Bespoke Website (unlimited pages)</li>
-                                <li>Mobile-Responsive Build</li>
-                                <li>Full SEO Strategy &amp; Ongoing Optimisation</li>
-                                <li>Google Analytics, Search Console &amp; PPC</li>
-                                <li>Full Social Media Management</li>
-                                <li>Monthly Performance Reporting</li>
+                                <li>Content Management System (CMS)</li>
+                                <li>Monthly Reporting &amp; Strategy</li>
                                 <li>Dedicated Account Manager</li>
+                                <li>Ongoing Support &amp; Optimisation</li>
                             </ul>
-                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100" data-hover="Get a Quote">
-                                <span>Get a Quote</span>
+                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100" data-hover="Claim Your Offer">
+                                <span>Claim Your Offer</span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-50">
+                <div class="row justify-content-center mt-60">
                     <div class="col-xl-8 text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <p><strong>All prices are bespoke and provided on application (POA).</strong> Every project is unique — we will put together a tailored proposal based on your specific requirements and goals. Contact our team today for a free, no-obligation consultation.</p>
+                        <h4 style="margin-bottom: 20px;">What This Includes</h4>
+                        <p style="margin-bottom: 20px;">Your one-time investment starts with a custom website build (typically 4-8 weeks). Then the monthly fee covers ongoing SEO, content creation, social media management, reporting and support. Everything grows with your business.</p>
+                        <div style="background: #f9f9f9; padding: 30px; border-radius: 10px;">
+                            <h5 style="margin-bottom: 15px;">How It Works</h5>
+                            <ul style="list-style: none; padding: 0; text-align: left; max-width: 500px; margin: 0 auto;">
+                                <li style="padding: 8px 0;"><strong>Month 1-3:</strong> £489.50/month (50% discount) — Website design, build and initial launch</li>
+                                <li style="padding: 8px 0;"><strong>Month 4+:</strong> £979/month — Full package with all services ongoing</li>
+                                <li style="padding: 8px 0;"><strong>No setup fees.</strong> No hidden charges. No lock-in contract.</li>
+                                <li style="padding: 8px 0;"><strong>Cancel anytime</strong> after the initial 3-month period, though most clients stay because they see results.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,8 +112,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-9 col-md-11 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mx-xl-3 mb-30">
-                            <h2>Ready to Grow Your Business Online?</h2>
-                            <p>Talk to the Blue Cow Digital team today for a free, no-obligation consultation.</p>
+                            <h2>Ready to Claim Your Offer?</h2>
+                            <p>Get started with our complete website and marketing package today. Get in touch to discuss your goals and lock in your 50% discount.</p>
                         </div>
                         <a href="{{ route('contact') }}" class="theme-btn hover-primary" data-hover="Get Started">
                             <span>Get Started</span>
