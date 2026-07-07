@@ -30,4 +30,4 @@
 <!-- Main Style -->
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <!-- BCD Custom Overrides -->
-<link rel="stylesheet" href="{{ asset('assets/css/bcd-custom.css') }}?v=1.2">
+<link rel="stylesheet" href="{{ asset('assets/css/bcd-custom.css') }}?v=1.3">
