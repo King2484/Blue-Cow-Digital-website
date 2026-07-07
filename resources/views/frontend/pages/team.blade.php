@@ -87,147 +87,90 @@
                 </div>
                
                 <div class="row justify-content-center">
+                    <!-- James Brayshaw - CEO -->
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/James Brayshaw - CEO.png') }}" alt="James Brayshaw - CEO">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">Joseph McArdle</a></h5>
-                                <span class="designation">Co-Founder & Creative Director</span>
+                                <h5><a href="{{ route('teamDetails') }}">James Brayshaw</a></h5>
+                                <span class="designation">CEO</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <!-- Joe McArdle - Key Account Manager -->
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/Joe McArdle - Key Account Manager.png') }}" alt="Joe McArdle - Key Account Manager">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">Matt Barooah</a></h5>
-                                <span class="designation">Co-Founder & SEO Strategist</span>
+                                <h5><a href="{{ route('teamDetails') }}">Joe McArdle</a></h5>
+                                <span class="designation">Key Account Manager</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <!-- Katie Murray - Operations Director -->
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/Katie Murray - Operations Director.png') }}" alt="Katie Murray - Operations Director">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">Sarah Thompson</a></h5>
-                                <span class="designation">Lead Web Developer</span>
+                                <h5><a href="{{ route('teamDetails') }}">Katie Murray</a></h5>
+                                <span class="designation">Operations Director</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <!-- Matthew Connelly - Marketing Manager -->
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="150">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/Matthew Connelly - Marketing Manager.png') }}" alt="Matthew Connelly - Marketing Manager">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">Emily Clarke</a></h5>
-                                <span class="designation">Brand & Social Media Manager</span>
+                                <h5><a href="{{ route('teamDetails') }}">Matthew Connelly</a></h5>
+                                <span class="designation">Marketing Manager</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <!-- Amy Holland - Customer Experience & Operations Manager -->
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="200">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/amy holland - customer experience and operations manager.png') }}" alt="Amy Holland">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">James J. Altamirano</a></h5>
-                                <span class="designation">Digital Consultant</span>
+                                <h5><a href="{{ route('teamDetails') }}">Amy Holland</a></h5>
+                                <span class="designation">Customer Experience & Operations Manager</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <!-- Daniel Ushie - Web Developer -->
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="250">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/daniel ushie - web developer.png') }}" alt="Daniel Ushie - Web Developer">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">Michael T. Johnson</a></h5>
-                                <span class="designation">Business Marketer</span>
+                                <h5><a href="{{ route('teamDetails') }}">Daniel Ushie</a></h5>
+                                <span class="designation">Web Developer</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <!-- Kate Brayshaw - Marketing Assistant -->
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="300">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <img src="{{ asset('assets/images/BCD team/kate brayshaw - marketing assistant .png') }}" alt="Kate Brayshaw - Marketing Assistant">
                             </div>
                             <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">William M. Phelan</a></h5>
-                                <span class="designation">Graphics Designer</span>
+                                <h5><a href="{{ route('teamDetails') }}">Kate Brayshaw</a></h5>
+                                <span class="designation">Marketing Assistant</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="team-item style-two">
-                            <div class="image">
-                                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Team Member">
-                                <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h5><a href="{{ route('teamDetails') }}">Frank R. Holland</a></h5>
-                                <span class="designation">Apps Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-10">
-                    <a href="{{ route('team') }}" class="theme-btn hover-primary" data-hover="View All Member">
-                        <span>View All Member</span>
-                    </a>
                 </div>
             </div>
         </section>

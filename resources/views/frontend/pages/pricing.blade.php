@@ -54,9 +54,36 @@
                         <p>We believe in simple, transparent pricing. No tier confusion. No upsells. Just one complete package with everything you need to grow your business online.</p>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center mt-30">
-                    <div class="col-xl-6 col-md-8 col-sm-10" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="pricing-item style-two active">
+                <div class="row align-items-stretch justify-content-center mt-30 gap-y-4">
+                    <!-- Package 1: Web Design Only -->
+                    <div class="col-lg-4 col-md-6 col-sm-10 d-flex" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="pricing-item style-two d-flex flex-column justify-content-between w-100">
+                           <div class="pricing-header">
+                                <h5 class="title">Web Design Only</h5>
+                                <div style="margin: 20px 0;">
+                                    <span class="price" style="font-size: 40px; font-weight: 700; color: var(--ridda-primary-color);">TBC</span>
+                                    <span style="display: block; font-size: 16px; margin-top: 5px; color: #666;">Price to be confirmed</span>
+                                </div>
+                                <p>A bespoke, professional website built to represent your brand and convert visitors into customers.</p>
+                           </div>
+                            <ul class="list-style-one my-4">
+                                <li>Custom Website Design &amp; Build</li>
+                                <li>Mobile-Responsive &amp; Fast-Loading</li>
+                                <li>Content Management System (CMS)</li>
+                                <li>Contact Form &amp; Lead Capture</li>
+                                <li>Basic SEO Foundation Setup</li>
+                                <li>Domain &amp; UK Hosting Setup</li>
+                                <li>Standard Ongoing Maintenance</li>
+                            </ul>
+                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100 mt-auto" data-hover="Enquire Now">
+                                <span>Enquire Now</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Package 2: Complete Package (Featured) -->
+                    <div class="col-lg-4 col-md-6 col-sm-10 d-flex" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
+                        <div class="pricing-item style-two active d-flex flex-column justify-content-between w-100">
                            <div class="pricing-header">
                                 <h5 class="title">Complete Package</h5>
                                 <div style="margin: 20px 0;">
@@ -66,23 +93,46 @@
                                 <div style="background: #f0f0f0; padding: 15px; border-radius: 6px; margin: 20px 0; font-weight: 600; color: #2ecc71;">
                                     50% OFF FIRST 3 MONTHS
                                 </div>
-                                <p>Everything you need to succeed online — website, SEO, content, social media, reporting and support.</p>
+                                <p>Our most popular all-in-one plan: premium web design, technical SEO, social media, and monthly growth marketing.</p>
                            </div>
-                            <ul class="list-style-one">
-                                <li>Custom Website Design &amp; Development</li>
-                                <li>Mobile-Responsive &amp; Fast-Loading</li>
-                                <li>Technical SEO Optimisation</li>
-                                <li>On-Page &amp; Local SEO</li>
+                            <ul class="list-style-one my-4">
+                                <li>Custom Web Design &amp; Development</li>
+                                <li>Technical, On-Page &amp; Local SEO</li>
                                 <li>Social Media Content (2x per week)</li>
-                                <li>Professional Blog Posts</li>
+                                <li>Professional Blog Posts &amp; Articles</li>
                                 <li>Google Analytics &amp; Search Console</li>
-                                <li>Content Management System (CMS)</li>
-                                <li>Monthly Reporting &amp; Strategy</li>
                                 <li>Dedicated Account Manager</li>
+                                <li>Monthly Reporting &amp; Strategy</li>
                                 <li>Ongoing Support &amp; Optimisation</li>
                             </ul>
-                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100" data-hover="Claim Your Offer">
+                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100 mt-auto" data-hover="Claim Your Offer">
                                 <span>Claim Your Offer</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Package 3: SEO & Content Growth -->
+                    <div class="col-lg-4 col-md-6 col-sm-10 d-flex" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100">
+                        <div class="pricing-item style-two d-flex flex-column justify-content-between w-100">
+                           <div class="pricing-header">
+                                <h5 class="title">SEO &amp; Content Growth</h5>
+                                <div style="margin: 20px 0;">
+                                    <span class="price" style="font-size: 40px; font-weight: 700; color: var(--ridda-primary-color);">TBC</span>
+                                    <span style="display: block; font-size: 16px; margin-top: 5px; color: #666;">Price to be confirmed</span>
+                                </div>
+                                <p>Ongoing search engine optimization and regular content creation to scale your organic search visibility.</p>
+                           </div>
+                            <ul class="list-style-one my-4">
+                                <li>In-Depth Competitor &amp; Keyword Research</li>
+                                <li>Regular Blog Writing &amp; Publishing</li>
+                                <li>High-Quality Backlink Campaigns</li>
+                                <li>Google Business Profile &amp; Maps SEO</li>
+                                <li>Technical SEO Audit &amp; Error Fixing</li>
+                                <li>Conversion Optimization (CRO)</li>
+                                <li>Monthly Rank &amp; Traffic Tracking</li>
+                            </ul>
+                            <a href="{{ route('contact') }}" class="theme-btn hover-primary w-100 mt-auto" data-hover="Enquire Now">
+                                <span>Enquire Now</span>
                             </a>
                         </div>
                     </div>

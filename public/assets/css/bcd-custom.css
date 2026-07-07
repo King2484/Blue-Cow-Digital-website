@@ -227,3 +227,68 @@ a.read-more:hover {
   color: white;
   border-color: var(--ridda-primary-color);
 }
+
+/* -------------------------------------------------------
+  17. RESPONSIVE HERO TITLE
+------------------------------------------------------- */
+.hero-content-four h1.hero-title-responsive {
+  font-size: 3.75rem !important;
+  line-height: 1.15 !important;
+}
+
+@media (max-width: 1399px) {
+  .hero-content-four h1.hero-title-responsive {
+    font-size: 2.75rem !important;
+    line-height: 1.2 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-content-four h1.hero-title-responsive {
+    font-size: 2rem !important;
+    line-height: 1.25 !important;
+  }
+}
+
+/* -------------------------------------------------------
+  18. RESPONSIVE SERVICE LIMELINE TEXT SIZES
+------------------------------------------------------- */
+.service-limeline-item .h1 {
+  font-size: 46px !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  .service-limeline-item .h1 {
+    font-size: 36px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .service-limeline-item .h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .service-limeline-item .h1 {
+    font-size: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .service-limeline-item .h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .service-limeline-item .h1 {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .service-limeline-item .h1 {
+    font-size: 16px !important;
+  }
+}

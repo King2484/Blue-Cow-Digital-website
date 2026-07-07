@@ -177,6 +177,84 @@
         </section>
         <!-- Project Grid Area end -->
 
+
+    <!-- Working Process Area Start -->
+    <section class="working-process-area bgc-black text-white rel z-1">
+        <div class="container bordered-x pt-130 rpt-100 pb-80 rpb-50">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 col-md-11">
+                    <div class="section-title mb-50 text-center" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-offset="50">
+                        <span class="subtitle mt-10 mb-15">How It Works</span>
+                        <h2>Our Step-by-Step Process</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gap-50 justify-content-center rel">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="work-process-item" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/3183158/pexels-photo-3183158.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Discovery and Strategy">
+                        </div>
+                        <div class="circle"></div>
+                        <div class="content">
+                            <h5>Discovery &<br> Planning</h5>
+                            <p>We get to know your business, goals and target audience — then build a clear project plan with scope and timelines.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="work-process-item" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="content">
+                            <h5>Design &<br> Prototyping</h5>
+                            <p>We create a visually appealing, brand-led design and present mock-ups for your review and approval before a single line of code is written.</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Design and Prototyping">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="work-process-item" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Development and Testing">
+                        </div>
+                        <div class="circle"></div>
+                        <div class="content">
+                            <h5>Development<br> & Testing</h5>
+                            <p>Our team builds the full website and rigorously tests every link, phone number and function to make sure everything works perfectly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="work-process-item" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="content">
+                            <h5>Launch &<br> Ongoing Growth</h5>
+                            <p>After final approval we go live — then we keep working, running your SEO, content and marketing every month to grow your results.</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Launch and Support">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="work-process-line">
+                        <img src="{{ asset('/assets/images/work-process/work-step-line.png') }}" alt="Line">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work-process-shapes"></div>
+    </section>
+    <!-- Working Process Area End -->
+
+
     <!-- footer area -->
     @include('frontend.includes.footers.footerOne')
     <!-- footer area end -->

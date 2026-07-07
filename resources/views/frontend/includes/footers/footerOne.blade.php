@@ -1,34 +1,9 @@
         <!-- footer area start -->
         <footer class="main-footer bgc-black text-white rel z-1">
 
-            <!-- Marquee strip -->
-            <div class="footer-marquee pt-60 pb-75 rpy-90 rel">
-                <div class="container blank-container bordered-x"></div>
-                <span class="marquee-wrap">
-                   <span class="marquee-inner left">
-                        <span class="marquee-item">Get In Touch</span>
-                        <span class="marquee-item">_</span>
-                        <span class="marquee-item">Get In Touch</span>
-                        <span class="marquee-item">_</span>
-                   </span>
-                   <span class="marquee-inner left">
-                        <span class="marquee-item">Get In Touch</span>
-                        <span class="marquee-item">_</span>
-                        <span class="marquee-item">Get In Touch</span>
-                        <span class="marquee-item">_</span>
-                   </span>
-                   <span class="marquee-inner left">
-                        <span class="marquee-item">Get In Touch</span>
-                        <span class="marquee-item">_</span>
-                        <span class="marquee-item">Get In Touch</span>
-                        <span class="marquee-item">_</span>
-                   </span>
-                </span>
-            </div>
-
             <!-- Main footer columns -->
             <div class="container bordered-x">
-                <div class="row pt-70 pb-50 rpt-50 rpb-30" style="border-top: 1px solid rgba(255,255,255,0.08);">
+                <div class="row pt-70 pb-50 rpt-50 rpb-30">
 
                     <!-- Col 1: Brand + Social -->
                     <div class="col-lg-4 col-md-6 mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
