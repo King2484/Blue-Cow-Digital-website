@@ -83,39 +83,46 @@
                     </div>
                 </div>
                 <div class="row text-center justify-content-center rel">
-                    <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
+                    <div class="col-xl-2 col-md-4 col-sm-6 mb-30" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="work-process-item-two">
                             <span class="number">01</span>
                             <h6>Discovery</h6>
-                            <p>We learn about your business, goals, audience and what drives your customers to buy.</p>
+                            <p>We learn about the business, goals, customers, competitors and what the website needs to achieve.</p>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
+                    <div class="col-xl-2 col-md-4 col-sm-6 mb-30" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
                         <div class="work-process-item-two">
                             <span class="number">02</span>
-                            <h6>Planning</h6>
-                            <p>We create a clear digital strategy including site structure, content plan and marketing roadmap.</p>
+                            <h6>Design</h6>
+                            <p>We design a professional, bespoke website that fits the business and makes the right impression.</p>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100">
+                    <div class="col-xl-2 col-md-4 col-sm-6 mb-30" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100">
                         <div class="work-process-item-two">
                             <span class="number">03</span>
-                            <h6>Design</h6>
-                            <p>We design a beautiful, conversion-focused website that represents your brand perfectly.</p>
+                            <h6>Build</h6>
+                            <p>We develop a fast, responsive, easy-to-use website that works properly across desktop and mobile.</p>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="150">
+                    <div class="col-xl-2 col-md-4 col-sm-6 mb-30" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="150">
                         <div class="work-process-item-two">
                             <span class="number">04</span>
-                            <h6>Development</h6>
-                            <p>We build your website with SEO built in, fast loading speeds and full mobile optimisation.</p>
+                            <h6>SEO &amp; Tracking</h6>
+                            <p>We set up SEO foundations, meta tags, Google Search Console, Google Analytics and tracking tools.</p>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="200">
+                    <div class="col-xl-2 col-md-4 col-sm-6 mb-30" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="200">
                         <div class="work-process-item-two">
                             <span class="number">05</span>
-                            <h6>Launch &amp; Market</h6>
-                            <p>We launch your site and immediately begin SEO optimisation and marketing campaigns.</p>
+                            <h6>Launch</h6>
+                            <p>We test the website, check forms, speed, mobile layout, links and key pages before launch.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6 mb-30" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="250">
+                        <div class="work-process-item-two">
+                            <span class="number">06</span>
+                            <h6>Ongoing Growth</h6>
+                            <p>We continue with updates, blogs, SEO, social posts, reporting, adjustments and marketing support.</p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +145,7 @@
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">01</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Web Design">
+                        <img src="{{ asset('assets/images/projects/project-grid1.jpg') }}" alt="Web Design">
                     </div>
                     <div class="content">
                         <h4><a href="{{ route('serviceDetails') }}">Complete Website Overhaul</a></h4>
@@ -149,7 +156,7 @@
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">02</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=500" alt="SEO">
+                        <img src="{{ asset('assets/images/projects/project-grid2.jpg') }}" alt="SEO">
                     </div>
                     <div class="content">
                         <h4><a href="{{ route('serviceDetails') }}">Complete SEO Strategy</a></h4>
@@ -160,7 +167,7 @@
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">03</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/669614/pexels-photo-669614.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Content">
+                        <img src="{{ asset('assets/images/projects/project-grid3.jpg') }}" alt="Content">
                     </div>
                     <div class="content">
                         <h4><a href="{{ route('serviceDetails') }}">Content &amp; Social Media Management</a></h4>
@@ -171,7 +178,7 @@
                 <div class="services-timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="number">04</div>
                     <div class="image">
-                        <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Reporting">
+                        <img src="{{ asset('assets/images/projects/project-grid4.jpg') }}" alt="Reporting">
                     </div>
                     <div class="content">
                         <h4><a href="{{ route('serviceDetails') }}">Monthly Reporting &amp; Strategy</a></h4>
