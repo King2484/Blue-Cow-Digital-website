@@ -91,7 +91,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/James Brayshaw - CEO.png') }}" alt="James Brayshaw - CEO">
+                                <img src="{{ asset('assets/images/bcd-team/james-brayshaw-ceo.png') }}" alt="James Brayshaw - CEO">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">James Brayshaw</a></h5>
@@ -103,7 +103,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/Joe McArdle - Key Account Manager.png') }}" alt="Joe McArdle - Key Account Manager">
+                                <img src="{{ asset('assets/images/bcd-team/joe-mcardle-key-account-manager.png') }}" alt="Joe McArdle - Key Account Manager">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">Joe McArdle</a></h5>
@@ -115,7 +115,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/Katie Murray - Operations Director.png') }}" alt="Katie Murray - Operations Director">
+                                <img src="{{ asset('assets/images/bcd-team/katie-murray-operations-director.png') }}" alt="Katie Murray - Operations Director">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">Katie Murray</a></h5>
@@ -127,7 +127,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="150">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/Matthew Connelly - Marketing Manager.png') }}" alt="Matthew Connelly - Marketing Manager">
+                                <img src="{{ asset('assets/images/bcd-team/matthew-connelly-marketing-manager.png') }}" alt="Matthew Connelly - Marketing Manager">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">Matthew Connelly</a></h5>
@@ -139,7 +139,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="200">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/amy holland - customer experience and operations manager.png') }}" alt="Amy Holland">
+                                <img src="{{ asset('assets/images/bcd-team/amy-holland-customer-experience-and-operations-manager.png') }}" alt="Amy Holland">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">Amy Holland</a></h5>
@@ -151,7 +151,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="250">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/daniel ushie - web developer.png') }}" alt="Daniel Ushie - Web Developer">
+                                <img src="{{ asset('assets/images/bcd-team/daniel-ushie-web-developer.png') }}" alt="Daniel Ushie - Web Developer">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">Daniel Ushie</a></h5>
@@ -163,7 +163,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="300">
                         <div class="team-item style-two">
                             <div class="image">
-                                <img src="{{ asset('assets/images/BCD team/kate brayshaw - marketing assistant .png') }}" alt="Kate Brayshaw - Marketing Assistant">
+                                <img src="{{ asset('assets/images/bcd-team/kate-brayshaw-marketing-assistant.png') }}" alt="Kate Brayshaw - Marketing Assistant">
                             </div>
                             <div class="content">
                                 <h5><a href="{{ route('teamDetails') }}">Kate Brayshaw</a></h5>
