@@ -56,7 +56,7 @@
                                 </li>
                                 <li style="display:flex;align-items:center;gap:12px;">
                                     <span style="color:var(--ridda-primary-color);font-size:14px;flex-shrink:0;"><i class="fas fa-phone-alt"></i></span>
-                                    <a href="tel:+441704331786" style="color:rgba(255,255,255,0.65);font-size:14px;transition:0.3s;" onmouseover="this.style.color='#28F67A'" onmouseout="this.style.color='rgba(255,255,255,0.65)'">+44 (0)1704 331 786</a>
+                                    <a href="tel:+441704331786" style="color:rgba(255,255,255,0.65);font-size:14px;transition:0.3s;" onmouseover="this.style.color='#28F67A'" onmouseout="this.style.color='rgba(255,255,255,0.65)'">01704 331 786</a>
                                 </li>
                             </ul>
                         </div>

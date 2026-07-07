@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 @section('title', 'Contact Us')
-@section('meta_description', 'Get in touch with Blue Cow Digital. Call us on +44 (0)1704 331 786 or email hello@bluecowdigital.co.uk. Based in Southport, serving clients nationwide.')
+@section('meta_description', 'Get in touch with Blue Cow Digital. Call us on 01704 331 786 or email hello@bluecowdigital.co.uk. Based in Southport, serving clients nationwide.')
 @section('meta_keywords', 'contact Blue Cow Digital, web design Southport, digital marketing enquiry, SEO consultation')
 @section('content')
     <!-- header area -->
@@ -114,7 +114,7 @@
                                         <div class="contact-info-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="50">
                                             <div class="icon"><i class="far fa-phone-volume"></i></div>
                                             <div class="text">
-                                                <a href="tel:+441704331786">+44 (0)1704 331 786</a><br>
+                                                <a href="tel:+441704331786">01704 331 786</a><br>
                                                 <a href="mailto:hello@bluecowdigital.co.uk">hello@bluecowdigital.co.uk</a>
                                             </div>
                                         </div>

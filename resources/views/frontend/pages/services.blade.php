@@ -245,7 +245,7 @@
                                     </button>
                                 </h2>
                                 <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#serviceFaq">
-                                    <div class="accordion-body">Simply get in touch via our contact page or call +44 (0)1704 331786. We'll discuss your goals, answer your questions, and you can claim the special offer.</div>
+                                    <div class="accordion-body">Simply get in touch via our contact page or call 01704 331 786. We'll discuss your goals, answer your questions, and you can claim the special offer.</div>
                                 </div>
                             </div>
                         </div>

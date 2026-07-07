@@ -264,7 +264,7 @@
                                     </button>
                                 </h2>
                                 <div id="start1" class="accordion-collapse collapse show" data-bs-parent="#faqStart">
-                                    <div class="accordion-body">Contact us via our <a href="{{ route('contact') }}">contact page</a>, call +44 (0)1704 331786, or email hello@bluecowdigital.co.uk. We'll arrange a free consultation to understand your business, answer your questions, and discuss your goals.</div>
+                                    <div class="accordion-body">Contact us via our <a href="{{ route('contact') }}">contact page</a>, call 01704 331 786, or email hello@bluecowdigital.co.uk. We'll arrange a free consultation to understand your business, answer your questions, and discuss your goals.</div>
                                 </div>
                             </div>
                             <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
